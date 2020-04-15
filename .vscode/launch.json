@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SingleInheritance",
+            "request": "launch",
+            "mainClass": "SingleInheritance"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Faizan",
             "request": "launch",
             "mainClass": "Faizan"

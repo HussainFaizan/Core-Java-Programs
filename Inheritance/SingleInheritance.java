@@ -1,6 +1,6 @@
 class Abc {
     void m1() {
-        System.out.println("Super class Method  M1");
+        System.out.println("Parent class Method  M1");
     }
 }
 
@@ -14,10 +14,10 @@ class pqr extends Abc {
 class SingleInheritance {
     public static void main(String[] args) {
         Abc a = new Abc();
-        a.m1();
-        // a.m2();
-        pqr p = new pqr();
-        p.m1();
-        p.m2();
+        a.m1(); // Parent class method
+        // a.m2(); // Parent Class Cannot Access The property of the child class.
+        pqr p = new pqr(); // Child class Can Access the property of the parent class.
+        p.m1(); // Parent class method
+        p.m2(); // Child Class Method
     }
 }
