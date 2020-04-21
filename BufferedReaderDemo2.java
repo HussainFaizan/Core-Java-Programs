@@ -1,8 +1,9 @@
-//import java.io.*;
+import java.io.Reader;
+import java.io.*;
 
 class BufferedReaderDemo2 {
     public static void main(String[] args) {
-        try (java.io.BufferedReader br = new java.io.BufferedReader(new InputStreamReader(System.in))) {
+        try (java.io.BufferedReader br = new java.io.BufferedReader(new Reader(System.in))) {
 
         } catch (Exception e) {
 
