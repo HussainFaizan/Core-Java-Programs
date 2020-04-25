@@ -1,10 +1,10 @@
-class Faizan {
+class Parent {
     void abc() {
         System.out.println("This Is Parent Method");
     }
 }
 
-class Ashraf extends Faizan {
+class Child extends Parent {
     void abc() {
         System.out.println("This Is Child Method");
     }
@@ -18,7 +18,7 @@ class Ashraf extends Faizan {
 
 class SuperMethod {
     public static void main(String[] args) {
-        Ashraf a = new Ashraf();
+        Child a = new Child();
         a.Display();
     }
 }

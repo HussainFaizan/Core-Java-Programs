@@ -1,12 +1,12 @@
-class Faizan {
-    Faizan(String str) {
+class Parent {
+    Parent(String str) {
         System.out.println("This Is Parent Method::" + str);
     }
 }
 
-class Ashraf extends Faizan {
-    Ashraf() {
-        super("Faizan");
+class Child extends Parent {
+    Child() {
+        super("Allen");
         System.out.println("This Is Child Method");
 
     }
@@ -15,7 +15,7 @@ class Ashraf extends Faizan {
 
 class SuperCons {
     public static void main(String[] args) {
-        Ashraf a = new Ashraf();
+        new Child();
 
     }
 }

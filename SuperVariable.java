@@ -1,24 +1,24 @@
-class Faizan {
+class Parent {
     int rollno = 101;
-    String name = "Faizan";
+    String name = "Allen";
 }
 
-class Ashraf extends Faizan {
+class Child extends Parent {
     int rollno = 102;
-    String name = "Ashraf";
+    String name = "Martin";
 
     void Display() {
-        System.out.println("The Name Is::" + super.name);
-        System.out.println("The Name Is::" + name);
-        System.out.println("The Roll No Is::" + super.rollno);
-        System.out.println("The Roll No Is::" + rollno);
+        System.out.println("Parent Class Roll No::" + super.rollno);
+        System.out.println("Parent Class Name::" + super.name);
+        System.out.println("Child Class Roll No::" + rollno);
+        System.out.println("Child Class Name::" + name);
 
     }
 }
 
 class SuperVaribale {
     public static void main(String[] args) {
-        Ashraf a = new Ashraf();
+        Child a = new Child();
         a.Display();
     }
 }
