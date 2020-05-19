@@ -1,7 +1,5 @@
-
-public class Pattern3 {
+class Test{
     public static void main(String[] args) {
-
+        System.out.println(Int.TYPE);
     }
-
 }
