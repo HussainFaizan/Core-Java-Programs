@@ -1,0 +1,243 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OTPValidate<demo>",
+            "request": "launch",
+            "mainClass": "demo.OTPValidate",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Abstraction",
+            "request": "launch",
+            "mainClass": "Abstraction"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Addition",
+            "request": "launch",
+            "mainClass": "Addition"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArithmaticException",
+            "request": "launch",
+            "mainClass": "ArithmaticException"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmstrongNumber"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayDemo",
+            "request": "launch",
+            "mainClass": "ArrayDemo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayIndexOutOfBoundsExc",
+            "request": "launch",
+            "mainClass": "ArrayIndexOutOfBoundsExc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayListDemo",
+            "request": "launch",
+            "mainClass": "ArrayListDemo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AssertDemo",
+            "request": "launch",
+            "mainClass": "AssertDemo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-C2",
+            "request": "launch",
+            "mainClass": "C2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Encapsulation",
+            "request": "launch",
+            "mainClass": "Encapsulation"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Faizan",
+            "request": "launch",
+            "mainClass": "Faizan"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FibonacciSeries",
+            "request": "launch",
+            "mainClass": "FibonacciSeries"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileInputStreamDemo",
+            "request": "launch",
+            "mainClass": "FileInputStreamDemo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileReaderDemo",
+            "request": "launch",
+            "mainClass": "FileReaderDemo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Hello",
+            "request": "launch",
+            "mainClass": "Hello"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MethodOverriding",
+            "request": "launch",
+            "mainClass": "MethodOverriding"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MultipleCatchBlock",
+            "request": "launch",
+            "mainClass": "MultipleCatchBlock"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MultiplicationTable",
+            "request": "launch",
+            "mainClass": "MultiplicationTable"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Mythread",
+            "request": "launch",
+            "mainClass": "Mythread"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NestedTryBlock",
+            "request": "launch",
+            "mainClass": "NestedTryBlock"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NetBanking",
+            "request": "launch",
+            "mainClass": "NetBanking"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NullPointerExc",
+            "request": "launch",
+            "mainClass": "NullPointerExc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Pattern1",
+            "request": "launch",
+            "mainClass": "Pattern1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Pattern2",
+            "request": "launch",
+            "mainClass": "Pattern2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Pattern3",
+            "request": "launch",
+            "mainClass": "Pattern3"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrimeNumber",
+            "request": "launch",
+            "mainClass": "PrimeNumber"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Psvm",
+            "request": "launch",
+            "mainClass": "Psvm"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StrConcat",
+            "request": "launch",
+            "mainClass": "StrConcat"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-String123Demo",
+            "request": "launch",
+            "mainClass": "String123Demo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SuperCons",
+            "request": "launch",
+            "mainClass": "SuperCons"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwapDemo",
+            "request": "launch",
+            "mainClass": "SwapDemo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test",
+            "request": "launch",
+            "mainClass": "Test"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThisKey",
+            "request": "launch",
+            "mainClass": "ThisKey"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThorwsException",
+            "request": "launch",
+            "mainClass": "ThorwsException"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-array",
+            "request": "launch",
+            "mainClass": "array"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-parameterizedConst",
+            "request": "launch",
+            "mainClass": "parameterizedConst"
+        }
+    ]
+}
