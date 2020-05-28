@@ -6,6 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StringDemo",
+            "request": "launch",
+            "mainClass": "StringDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WrapperEx2",
+            "request": "launch",
+            "mainClass": "WrapperEx2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultiArray",
+            "request": "launch",
+            "mainClass": "MultiArray"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
