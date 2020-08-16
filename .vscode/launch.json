@@ -6,6 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NoSynco",
+            "request": "launch",
+            "mainClass": "NoSynco"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Syncro",
+            "request": "launch",
+            "mainClass": "Syncro"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyThread",
+            "request": "launch",
+            "mainClass": "MyThread"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StringDemo",
             "request": "launch",
             "mainClass": "StringDemo"
